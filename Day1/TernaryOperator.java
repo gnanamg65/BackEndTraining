@@ -5,6 +5,6 @@ public class TernaryOperator {
         Scanner sc=new Scanner(System.in);
         int num1= sc.nextInt();
         String ans=num1%2==0 ?"Even":"Odd";
-        System.out.println(ans+"okok");
+        System.out.println(ans);
     }
 }
