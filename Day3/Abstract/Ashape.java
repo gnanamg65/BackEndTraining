@@ -1,3 +1,5 @@
+// Abstract Class Example:
+//Create an abstract class Shape with an abstract method calculateArea(). Derive classes Circle and Rectangle and implement the calculateArea() method in both.
 package Day3.Abstract;
 
 abstract class Ashape {

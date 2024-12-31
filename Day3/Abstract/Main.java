@@ -1,3 +1,5 @@
+//Partial Implementation:
+//Create an abstract class Appliance with methods turnOn() (abstract) and turnOff() (non-abstract). Derive a class Fan and implement turnOn().
 package Day3.Abstract;
 abstract class Appliance {
     abstract void turnOn();
