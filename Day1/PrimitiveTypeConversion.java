@@ -5,6 +5,6 @@ public class PrimitiveTypeConversion {
         Scanner sc = new Scanner(System.in);
         float f = sc.nextFloat();
         System.out.println("Float Value:"+f);
-        System.out.println("Float to Integer:"+(int)+f);
+        System.out.println("Float to Integer:"+(int)f);
     }
 }
