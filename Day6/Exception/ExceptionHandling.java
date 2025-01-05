@@ -12,19 +12,22 @@ public class ExceptionHandling {
         Scanner sc=new Scanner(System.in);
         int num1=sc.nextInt();
         int num2= sc.nextInt();
-        try {
-            double ans1 = num1 / num2;
-            System.out.println("Division of two numbers is: " + ans1);
+
+       try {
+           double ans1 = num1 / num2;
+            System.out.println("Division of two numbers is: " +ans1);
         }
         catch (NumberFormatException e){
-            System.out.println(" Error: Division by zero is not allowed.");
+            System.out.println(" Error: Please enter valid integers.");
         }
         catch (ArithmeticException e){
-            System.out.println(" Error: Please enter valid integers.");
+            System.out.println("Error: Division by zero is not allowed.");
         }
         catch (Exception e){
             System.out.println("An unexpected error occurred.");
         }
+        //int a=num1*num2;
+        //System.out.println(a);
     }
 }
 
