@@ -1,3 +1,10 @@
+//Write a Java program to demonstrate the use of reflection. Your program should:
+//Dynamically load a custom class (e.g., Person) using its fully qualified name.
+//Display the following details about the class:
+//All declared methods and their return types.
+//All declared fields and their types.
+//All constructors.
+//Dynamically invoke a method on an object of the class, provided the method name and arguments as input.
 package Day7.Reflection;
 
 public class Person {

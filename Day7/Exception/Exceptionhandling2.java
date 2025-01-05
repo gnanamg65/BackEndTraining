@@ -1,3 +1,7 @@
+//Write a Java program that takes two numbers as input from the user and divides the first number by the second. Handle the following exceptions:
+//ArithmeticException: If the second number is zero, display an error message: "Division by zero is not allowed."
+//InputMismatchException: If the user enters non-numeric input, display an error message: "Invalid input. Please enter numeric values."
+//General Exception: For any other unexpected errors, display a generic error message: "An error occurred: [error message]."
 package Day7.Exception;
 import java.util.*;
 public class Exceptionhandling2 {

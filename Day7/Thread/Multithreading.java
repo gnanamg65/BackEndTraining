@@ -1,3 +1,10 @@
+
+//Write a Java program to demonstrate the use of multithreading. The program should:
+//Create two threads:
+//Thread 1: Print numbers from 1 to 10 with a 500ms delay between each number.
+//Thread 2: Print the square of numbers from 1 to 10 with a 700ms delay between each number.
+//Ensure both threads run concurrently.
+//Use Thread class or Runnable interface for thread implementation.
 package Day7.Thread;
 
 class NumberPrinter implements Runnable {
