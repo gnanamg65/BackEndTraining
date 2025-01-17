@@ -13,5 +13,7 @@ public class MissingNumber {
             }
             val++;
         }
+        long end=System.currentTimeMillis();
+
     }
 }

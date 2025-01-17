@@ -14,7 +14,8 @@
 //Output: false
 package Day7.AdditionalProgram;
 import java.util.*;
-public class PalindromDeleteOneCharacter {
+public class
+PalindromDeleteOneCharacter {
 
     static boolean isPalindrome(String s){
         for(int i=0;i<s.length();i++){

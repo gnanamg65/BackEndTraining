@@ -11,6 +11,7 @@ class Fan extends Appliance {
     @Override
     void turnOn() {
         System.out.println("The fan is turned on.");
+
     }
 }
 public class Main {
