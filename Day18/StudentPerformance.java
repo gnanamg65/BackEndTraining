@@ -68,11 +68,11 @@ public class StudentPerformance {
                 student.setGrade("D");
             }
         });
-        students.stream().sorted(Comparator.comparingDouble(Student::getAverageMarks))
+        students.stream().sorted((s1,s2)->Double.compare(s2.getAverageMarks(), s1.getAverageMarks()))
                 .forEach(System.out::println);
         System.out.println("_______________________________________________________");
         System.out.println("Top 3 Student");
-        students.stream().sorted(Comparator.comparingDouble(Student::getAverageMarks))
+        students.stream().sorted((s1,s2)->Double.compare(s2.getAverageMarks(), s1.getAverageMarks()))
                 .limit(3).forEach(System.out::println);
         System.out.println("______________________________");
         System.out.println("Average Grade in Each Student");
